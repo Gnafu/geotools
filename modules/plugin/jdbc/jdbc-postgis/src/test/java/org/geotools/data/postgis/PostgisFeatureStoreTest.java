@@ -28,7 +28,7 @@ public class PostgisFeatureStoreTest extends JDBCFeatureStoreTest {
 
     @Override
     protected JDBCTestSetup createTestSetup() {
-        return new PostGISTestSetup();
+        return new PostGISFeatureStoreTestSetup();
     }
 
 }
